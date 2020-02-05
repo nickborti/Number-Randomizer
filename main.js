@@ -52,13 +52,6 @@ let colorsObj = {
 }
 
 $(document).on('click', '.action', function () {
-
-    // let obj;
-    // if (localStorage.table) {
-    //     obj = localStorage.table;
-    // } else {
-    //     obj = numbersObj;
-    // }
    
     let type = $(this).attr('data-type');
     let val = $(this).attr('data-value');

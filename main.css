@@ -1,3 +1,9 @@
-td {
+body {
+    margin: 60px auto;
+    padding: 4%;
+    background: #000000;
+}
+
+td, thead {
     color: white;
 }
